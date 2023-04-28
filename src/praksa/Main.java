@@ -9,9 +9,6 @@ public class Main {
 		
 		NizOsoba o= new NizOsoba();
 		
-		o.ispisDany();
-		o.ispisBrojPoruka();
-		o.SadOrHappy();
 		
 		
 		
