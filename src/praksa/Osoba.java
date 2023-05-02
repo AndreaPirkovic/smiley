@@ -6,6 +6,9 @@ public class Osoba {
 	String name;
 	String allegiance;
 	String MessageLogNo;
+	private int countHappy;
+	private int countSad;
+	
 
 	
 	public Osoba() {
@@ -34,6 +37,23 @@ public class Osoba {
 		return FileHelper.loadMessages(MessageLogNo);
 	}
 
+	
+
+	public int getCountHappy() {
+		return countHappy;
+	}
+
+	public void setCountHappy(int countHappy) {
+		this.countHappy = countHappy;
+	}
+
+	public int getCountSad() {
+		return countSad;
+	}
+
+	public void setCountSad(int countSad) {
+		this.countSad = countSad;
+	}
 
 	}
 	
